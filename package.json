@@ -1,0 +1,25 @@
+{
+  "name": "tweb_test_server",
+  "version": "1.0.0",
+  "description": "test server to practice JS promises, mangodb and other stuff",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienAllemand/TWEB_test_server.git"
+  },
+  "author": "Adrien Allemand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienAllemand/TWEB_test_server/issues"
+  },
+  "homepage": "https://github.com/AdrienAllemand/TWEB_test_server#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "fetch": "^1.1.0",
+    "mocha": "^5.2.0"
+  }
+}
