@@ -7,20 +7,27 @@
     "start": "nodemon app.js",
     "test": "mocha test/**/*.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AdrienAllemand/TWEB_test_server.git"
-  },
   "author": "Adrien Allemand",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AdrienAllemand/TWEB_test_server/issues"
-  },
-  "homepage": "https://github.com/AdrienAllemand/TWEB_test_server#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
     "chai": "^4.2.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "fetch": "^1.1.0",
-    "mocha": "^5.2.0"
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.8",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "resolutions": {
+    "**/event-stream": "^4.0.1"
   }
 }
